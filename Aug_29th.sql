@@ -1,0 +1,5 @@
+SHOW DATABASES;
+CREATE DATABASE chaya_km;
+USE chaya_km;
+CREATE DATABASE june_19th;
+USE june_19th;
