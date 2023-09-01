@@ -1,0 +1,17 @@
+CREATE DATABASE task_one;
+use task_one;
+CREATE TABLE artists(artists_name varchar(20),age int,native_place varchar(20), current_place varchar(20),height int,weight int,salary float,number_of_movies int);
+CREATE TABLE Generators(brand varchar(20),power_source varchar(10),uses_for_product varchar(20),weight int,output_wattage int,special_feature varchar(20),voltage int, current_range int);
+CREATE TABLE CircuitBreakers(type_of_CB varchar(20),brand varchar(10),current_rating int,mounting_type varchar(20),dimensions varchar(10),height int,weight int,material varchar(20));
+CREATE TABLE Meters(types_of_meter varchar(20),brand varchar(20),current_rating int,voltage_rating int,height int, weight int,input_type varchar(10),number_Of_phases varchar(10));
+CREATE TABLE Transformer(volage_rating int,current_rating int, power_rating int,type_of_cooling varchar(10),number_of_phases int,type_of_winding varchar(10),type_of_structure varchar(10),type_of_mounting varchar(10));
+alter table artists add column number_of_seies int;
+alter table artists add column number_of_awards int;
+alter table Generators add column input int;
+alter table Generators add column output int;
+alter table CircuitBreakers add column input int;
+alter table CircuitBreakers add column output int;
+alter table Meters add column power_source varchar(20);
+alter table Meters add column style varchar(20);
+alter table Transformer add column brand varchar(20);
+alter table Transformer add column weight int;
