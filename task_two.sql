@@ -39,3 +39,4 @@ insert into Transformer values(1,230,25,300,'air','1','wave','core','dic','abb',
 select*from Transformer;
 insert into Transformer values(2,415,20,1000,'oil','3','wound','core','dic','abb',400);
 select*from Transformer;
+update Transformer set  brand='bosh' where id=1;
