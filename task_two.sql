@@ -38,5 +38,7 @@ desc Transformer;
 insert into Transformer values(1,230,25,300,'air','1','wave','core','dic','abb',300);
 select*from Transformer;
 insert into Transformer values(2,415,20,1000,'oil','3','wound','core','dic','abb',400);
+alter table Transformer modify column id bigint;
+alter table Transformer modify column id varchar(10);
 select*from Transformer;
 update Transformer set  brand='bosh' where id=1;
